@@ -4,13 +4,9 @@ export default {
   theme: {
     extend: {
       borderRadius: {
-        'custom-radius': '47% 53% 61% 39% / 45% 51% 49% 55%',
-        'custom-radius-2': '45% 51% 49% 55% / 47% 53% 61% 39% ',
         'custom-half': '50%',
     },
     colors: {
-        'custom-color-1': 'rgb(0 0 0 / 30%)',
-        'custom-color-2': 'rgb(0 0 0 / 28%)',
         'cream1': 'rgb(255, 242, 215)',
         'cream2': 'rgb(255, 224, 181)',
         'cream3': 'rgb(248, 199, 148)',
@@ -40,7 +36,10 @@ export default {
         'custom-margin-2': '0 0 44px',
     },
     zIndex:{
-        'custom-z-index': '3',
+        '1': '1',
+        '2': '2',
+        '3': '3',
+        '100': '100',
     },
     width:{
         'custom-w-1':'94%',
@@ -52,9 +51,6 @@ export default {
     borderWidth:{
         'cstm-1': '2px'
     },
-    animation:{
-        'slideUp': '0.3s ease-in-out forwards',
-    }
     },
   },
   plugins: [],

@@ -6,7 +6,7 @@
     <div>
         <LayoutNavbar />
         <div class="place-items-center justify-center lg:justify-end md:justify-end sm:justify-center h-screen  w-full font-sans">
-            <div style="background-image: url('https://i.ibb.co.com/bP20HYc/Whats-App-Image-2024-07-15-at-16-40-04-7a96a72f.jpg');" class="w-full h-screen bg-center absolute"></div>
+            <div style="background-image: url('');" class="w-full h-screen bg-center absolute"></div>
             <div class="w-full h-screen absolute bg-custom-4 opacity-5"></div>
             <div class="w-full h-screen absolute bg-custom-5 opacity-60"></div>
                 <div class="absolute w-full text-center sm:text-center md:text-left lg:text-left md:w-[40%] lg:w-[40%] h-full md:left-[55%] lg:left-[60%] text-custom-6 pointer-events-none">
@@ -18,6 +18,9 @@
                         </h3>
                         <button class="mt-10 h-12 mx-4 w-48 rounded-md p-2 bg-custom-3 text-black hover:bg-cream12"><b>Message Us</b></button>
                 </div>
+            </div>
+            <div class="relative h-screen w-full">
+
             </div>
     </div>
 </template>

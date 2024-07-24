@@ -1,7 +1,7 @@
 <script setup lang="ts">
-    import { LayoutLoginLayout } from '#components';
+import { LayoutLoginMUALayLogin } from '#components';
 </script>
 
 <template>
-    <LayoutLoginLayout/>
+    <LayoutLoginMUALayLogin/>
 </template>

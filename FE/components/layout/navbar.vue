@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav id="navbar" :class="['w-full h-11 sm:h-11 md:h-12 lg:h-14 fixed z-10 transition-all duration-300', { 'backdrop-blur-lg ': isScrolled }]">
+        <nav id="navbar" :class="['w-full h-11 sm:h-11 md:h-12 lg:h-14 fixed z-10 transition-all duration-300', { 'backdrop-blur-lg': isScrolled }]">
 
                 <ul class="w-full h-full flex">
                     <li class="flex items-center ml-7 md:hidden lg:hidden">
