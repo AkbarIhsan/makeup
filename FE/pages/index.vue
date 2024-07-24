@@ -6,9 +6,9 @@
     <div>
         <LayoutNavbar />
         <div class="place-items-center justify-center lg:justify-end md:justify-end sm:justify-center h-screen  w-full font-sans">
-            <div style="background-image: url('');" class="w-full h-screen bg-center absolute"></div>
-            <div class="w-full h-screen absolute bg-custom-4 opacity-5"></div>
-            <div class="w-full h-screen absolute bg-custom-5 opacity-60"></div>
+            <div style="background-image: url('https://i.ibb.co.com/pW3bSzk/bg.jpg');" class="w-full h-screen bg-center absolute"></div>
+            <!-- <div class="w-full h-screen absolute bg-custom-4 opacity-5"></div>
+            <div class="w-full h-screen absolute bg-custom-5 opacity-60"></div> -->
                 <div class="absolute w-full text-center sm:text-center md:text-left lg:text-left md:w-[40%] lg:w-[40%] h-full md:left-[55%] lg:left-[60%] text-custom-6 pointer-events-none">
                     <h1 class="text-6xl mx-4 sm:text-6xl md:text-5xl lg:text-7xl sm:mx-4 md:mr-4 lg:mr-3 pt-[40%] lg:pt-[30%] md:pt-[50%]">
                         <b class="text-white">Professional make up Studio</b>

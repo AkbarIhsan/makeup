@@ -1,6 +1,6 @@
 <template>
     <div>
-        <nav id="navbar" :class="['w-full h-11 sm:h-11 md:h-12 lg:h-14 fixed z-10 transition-all duration-300', { 'backdrop-blur-lg': isScrolled }]">
+        <nav id="navbar" :class="['w-full h-11 sm:h-11 md:h-12 lg:h-16 fixed z-10 transition-all duration-300', { 'bg-white': isScrolled }]">
 
                 <ul class="w-full h-full flex">
                     <li class="flex items-center ml-7 md:hidden lg:hidden">
@@ -22,7 +22,7 @@
                     <li class="mx-3 text-sm hidden w-auto h-full items-center md:text-md lg:text-lg text-white sm:hidden md:flex lg:flex"><a href="">Contact</a></li>
                     
                     <li class="mx-3 sm:mr-3 md:mr-4 lg:mr-12 text-sm flex h-full w-auto items-center justify-end">
-                        <a href="login" class="h-auto w-16 sm:w-16 md:w-24 lg:w-28 rounded-md p-2 bg-custom-3 text-black text-center "><b>Login</b></a>
+                        <a href="login" class="h-auto w-16 sm:w-16 md:w-24 lg:w-28 rounded-md p-2 bg-gradient-to-tr from-blue-500 to-blue-300 text-white text-center "><b>Login</b></a>
                     </li>          
                 </ul>
         </nav>

@@ -1,9 +1,14 @@
 <template>
     <div>
         <div class="grid">
-            <h1 class="mt-6 text-start text-4xl font-thin">Sign In</h1>
+            <h1 class="font-thin 
+                        text-center lg:text-start md:text-center  
+                        mt-1 lg:mt-6 md:mt-3 sm:mt-1
+                        text-2xl lg:text-4xl md:text-3xl sm:text-2xl">Sign In</h1>
         </div>
-        <form action="" class="grid gap-10 mt-16">
+        <form action="" class="grid 
+                        gap-8 lg:gap-10 md:gap-8 sm:gap-8 
+                        mt-14 lg:mt-16 md:mt-10 sm:mt-14">
             <div class="grid">
                 <label id="inputLabelUs" class="text-start text-black text-custom-font-size md:text-sm lg:text-sm" style="visibility: hidden" for="inputFieldUs">Username</label>
                 <input id="inputFieldUs" class="w-full lg:h-13 md:h-12 sm:h-11 h-10 lg:text-base md:text-sm text-custom-font-size  pr-6 border-b-2 outline-none bg-transparent visible placeholder:text-black placeholder:opacity-30 text-black" type="text" placeholder="Username" name="">
@@ -13,7 +18,8 @@
                 <div class="relative w-full">
                     <div class="absolute inset-y-0 right-0 flex items-center px-2">
                         <input class="hidden js-password-toggle" id="toggle" type="checkbox" />
-                        <label class="py-1 text-sm cursor-pointer js-password-label" for="toggle"><img class="lg:h-5 md:h-4 sm:h-4 h-4" src="https://i.ibb.co.com/Wp1WFhf/eye-password-see-view-svgrepo-com.png" alt=""></label>
+                        <label class="py-1 text-sm cursor-pointer js-password-label" for="toggle"><img class="  h-4 lg:h-5 md:h-4 sm:h-4 
+                                                                                                                w-4 lg:w-5 md:w-4 sm:w-4" src="https://i.ibb.co.com/Wp1WFhf/eye-password-see-view-svgrepo-com.png" alt=""></label>
                     </div>
                         <input id="inputFieldPas" class="w-full lg:h-13 md:h-12 sm:h-11 h-10 lg:text-base md:text-sm text-custom-font-size pt-0 pr-6  border-b-2 outline-none bg-transparent visible placeholder:text-black placeholder:opacity-30 text-black js-password" placeholder="Password" type="password" autocomplete="off"/>
                 </div>
@@ -27,7 +33,13 @@
                     <a class="text-custom-font-size md:text-custom-font-size lg:text-sm font-thin" href="">Forgot Password</a>
                 </div> 
             </div>
-            <button class="w-[60%] lg:h-13 md:h-12 sm:h-11 h-10 mt-5 border-2 lg:text-base md:text-sm text-custom-font-size bg-gradient-to-r from-red-500 to-pink-500 text-slate-100 hover:bg-red-700 hover:scale-90 grid place-items-center font-weight-normal cursor-pointer mx-auto border-none rounded-3xl shadow-xl font-bold">Sign In</button>
+            <button class=" grid place-items-center font-weight-normal cursor-pointer mx-auto border-none rounded-3xl shadow-xl font-bold 
+                            border-2 bg-gradient-to-r from-red-500 to-pink-500 text-slate-100 hover:bg-red-700 hover:scale-90 
+                            mt-5
+                            lg:text-base md:text-sm text-custom-font-size 
+                            lg:h-13 md:h-12 sm:h-11 h-10 
+                            w-[40%] lg:w-[60%] md:w-[50%] sm:w[50%] 
+                            ">Sign In</button>
         </form>
     </div>
 </template>
@@ -65,16 +77,16 @@
             });
 
             const passwordToggle = document.querySelector('.js-password-toggle')
-            passwordToggle.addEventListener('change', function() {
+                passwordToggle.addEventListener('change', function() {
             const inputFieldPas = document.querySelector('.js-password'),
                 passwordLabel = document.querySelector('.js-password-label')
 
             if (inputFieldPas.type === 'password') {
                 inputFieldPas.type = 'text'
-                passwordLabel.innerHTML = '<img class="lg:h-5 md:h-4 sm:h-4 h-4" src="https://i.ibb.co.com/Wp1WFhf/eye-password-see-view-svgrepo-com.png" alt="">'
+                passwordLabel.innerHTML = '<img class="lg:h-5 md:h-4 sm:h-4 h-4 w-4 lg:w-5 md:w-4 sm:w-4" src="https://i.ibb.co.com/B6jkXf1/eye-key-look-password-security-see-svgrepo-com.png" alt="">'
             } else {
                 inputFieldPas.type = 'password'
-                passwordLabel.innerHTML = '<img class="lg:h-5 md:h-4 sm:h-4 h-4" src="https://i.ibb.co.com/B6jkXf1/eye-key-look-password-security-see-svgrepo-com.png" alt="">'
+                passwordLabel.innerHTML = '<img class="lg:h-5 md:h-4 sm:h-4 h-4 w-4 lg:w-5 md:w-4 sm:w-4x" src="https://i.ibb.co.com/Wp1WFhf/eye-password-see-view-svgrepo-com.png" alt="">'
             }
                 password.focus()
             });
