@@ -4,7 +4,7 @@ import RegisterForm from '../../form/registerForm.vue';
 
 <template>
     <div class="flex flex-col-reverse lg:flex-row-reverse md:flex-col-reverse sm:flex-col-reverse place-items-center justify-center h-screen font-sans w-full bg-white overflow-hidden">
-        <div class="relative mx-0 lg:px-11 md:px-9 sm:px-8 px-8 lg:pt-8 md:pt-0 pt-0 lg:mb-0 md:mb-10 sm:mb-0 mb-0 h-[80%] lg:w-[30%] md:w-[60%] sm:w-full w-full text-center shadow-2xl rounded-r-lg">
+        <div class="relative mx-0 lg:px-11 md:px-9 sm:px-8 px-8 lg:pt-8 md:pt-0 pt-0 lg:mb-0 md:mb-10 sm:mb-0 mb-0 h-[80%] lg:w-[30%] md:w-[60%] sm:w-full w-full text-center shadow-2xl roundedr-lg">
                 <RegisterForm/>
         </div>
         <div class="flex flex-col relative mx-0 lg:px-11 md:px-9 sm:px-6 px-6 

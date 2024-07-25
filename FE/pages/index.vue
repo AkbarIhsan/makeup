@@ -1,6 +1,7 @@
 <script setup lang="ts">
     import { LayoutNavbar } from '#components';
     import { LayoutCard } from '#components';
+    import { LayoutAboutUs } from '#components';
 </script>
 
 <template>
@@ -41,9 +42,8 @@
                     <a class="text-pink-600" href="">view more..</a>
                 </div>
             </div>
-            <div class="flex mt-8 
-                        w-full h-screen">
-
+            <div class="flex mt-24 w-full h-screen">
+                    <LayoutAboutUs/>
             </div>
     </div>
 </template>
