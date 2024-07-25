@@ -3,8 +3,8 @@ import RegisterForm from '../../form/registerForm.vue';
 </script>
 
 <template>
-    <div class="flex flex-col lg:flex-row md:flex-col lg:flex-row-reverse md:flex-row-reverse sm:flex-col-reverse place-items-center justify-center h-screen font-sans w-full bg-white overflow-hidden">
-        <div class="relative mx-0 lg:px-11 md:px-9 sm:px-8 px-8 lg:pt-8 md:pt-0 pt-0 lg:mb-0 md:mb-10 sm:mb-0 mb-0 h-[80%] lg:w-[30%] md:w-[60%] sm:w-full w-full text-center shadow-2xl rounded-l-lg">
+    <div class="flex flex-col-reverse lg:flex-row-reverse md:flex-col-reverse sm:flex-col-reverse place-items-center justify-center h-screen font-sans w-full bg-white overflow-hidden">
+        <div class="relative mx-0 lg:px-11 md:px-9 sm:px-8 px-8 lg:pt-8 md:pt-0 pt-0 lg:mb-0 md:mb-10 sm:mb-0 mb-0 h-[80%] lg:w-[30%] md:w-[60%] sm:w-full w-full text-center shadow-2xl rounded-r-lg">
                 <RegisterForm/>
         </div>
         <div class="flex flex-col relative mx-0 lg:px-11 md:px-9 sm:px-6 px-6 
@@ -12,7 +12,7 @@ import RegisterForm from '../../form/registerForm.vue';
                     text-center bg-gradient-to-br from-red-500 to-pink-500
                     h-[25%] lg:h-[80%] md:h-[30%] sm:h-[30%] 
                     w-full lg:w-[30%] md:w-[60%] sm:w-full  lg:mt-0 md:mt-10 sm:mt0 mt-0
-                    shadow-lg lg:rounded-r-lg">
+                    shadow-lg lg:rounded-l-lg">
                         <div class="flex h-1/2 justify-center
                                     items-end lg:items-end md:items-center sm:items-end">
                             <h1 class="font-bold text-white font-sans

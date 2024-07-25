@@ -2,7 +2,7 @@
         <div class="">
             <h1 class="font-thin text-center lg:text-start md:text-center mt-1 lg:mt-6 md:mt-3 sm:mt-1 text-2xl lg:text-4xl md:text-3xl sm:text-2xl">Sign Up</h1>
         </div>
-        <form action="" class="m-custom-margin-2 grid gap-3 md:gap-4 mt-10">
+        <form action="" class="m-custom-margin-2 grid gap-3 lg:gap-1 md:gap-4 mt-10">
             <label id="inputLabelEm" class="text-start text-black text-custom-font-size md:text-sm lg:text-base" style="visibility: hidden" for="inputFieldEm">Email</label>
             <input id="inputFieldEm" class="w-full lg:h-13 md:h-12 sm:h-11 h-10 lg:text-base md:text-sm text-custom-font-size pt-0 pr-6 border-b-2 outline-none bg-transparent visible placeholder:text-black placeholder:opacity-30 text-black" type="email" placeholder="Email" name="">
 

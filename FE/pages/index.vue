@@ -1,12 +1,13 @@
 <script setup lang="ts">
     import { LayoutNavbar } from '#components';
+    import { LayoutCard } from '#components';
 </script>
 
 <template>
     <div>
         <LayoutNavbar />
         <div class="place-items-center justify-center lg:justify-center md:justify-end sm:justify-center h-screen
-                    w-full font-sans">
+                    w-full font-sans overflow-x-hidden">
             <div style="background-image: url('https://i.ibb.co.com/pW3bSzk/bg.jpg');" class="w-full h-screen bg-center absolute"></div>
                 <div class="absolute text-center sm:text-center md:text-left lg:text-left 
                             w-full sm:w-full md:w-[40%] lg:w-[40%] 
@@ -29,55 +30,20 @@
                         <b class="text-2xl font-semibold text-black">Best Make Up Artist </b>
                     </h1>
                 </div>
-                <div class="mx-32 mt-10 flex flex-row gap-x-5">
-                    <a href="" class="flex justify-center hover:-mt-10
-                                w-72 h-80 
-                                shadow-2xl
-                                rounded-lg">
-                                    <div class="absolute 
-                                            w-24 h-24
-                                            -mt-12
-                                            rounded-full">
-                                            <img class="w-24 h-24 object-cover rounded-full" src="https://i.ibb.co.com/12XsfYj/aku.jpg" alt="">
-                                    </div>
-                    </a>
-
-                    <a href="" class="flex justify-center hover:-mt-10
-                                w-72 h-80 
-                                shadow-2xl
-                                rounded-lg">
-                                    <div class="border-2 border-black absolute 
-                                            w-24 h-24
-                                            -mt-12
-                                            rounded-full">
-                                            <img class="w-24 h-24 object-cover rounded-full" src="https://i.ibb.co.com/12XsfYj/aku.jpg" alt="">
-                                    </div>
-                    </a>
-
-                    <a href="" class="flex justify-center hover:-mt-10
-                                w-72 h-80 
-                                shadow-2xl
-                                rounded-lg">
-                                    <div class="border-2 border-black absolute 
-                                            w-24 h-24
-                                            -mt-12
-                                            rounded-full">
-                                            <img class="w-24 h-24 object-cover rounded-full" src="https://i.ibb.co.com/12XsfYj/aku.jpg" alt="">
-                                    </div>
-                    </a>
-
-                    <a href="" class="flex justify-center hover:-mt-10
-                                w-72 h-80 
-                                shadow-2xl
-                                rounded-lg">
-                                    <div class="border-2 border-black absolute 
-                                            w-24 h-24
-                                            -mt-12
-                                            rounded-full">
-                                            <img class="w-24 h-24 object-cover rounded-full" src="https://i.ibb.co.com/12XsfYj/aku.jpg" alt="">
-                                    </div>
-                    </a>
+                <div class="flex flex-row gap-x-8 justify-center">
+                    <LayoutCard/>
+                    <LayoutCard/>
+                    <LayoutCard/>
+                    <LayoutCard/>
                 </div>
+                <div class="flex justify-center mt-10 pb-8
+                            border-b-2 border-pink-500">
+                    <a class="text-pink-600" href="">view more..</a>
+                </div>
+            </div>
+            <div class="flex mt-8 
+                        w-full h-screen">
+
             </div>
     </div>
 </template>

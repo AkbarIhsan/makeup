@@ -7,7 +7,7 @@
                         text-2xl lg:text-4xl md:text-3xl sm:text-2xl">Sign In</h1>
         </div>
         <form action="" class="grid 
-                        gap-8 lg:gap-10 md:gap-8 sm:gap-8 
+                        gap-8 lg:gap-8 md:gap-6 sm:gap-8 
                         mt-14 lg:mt-16 md:mt-10 sm:mt-14">
             <div class="grid">
                 <label id="inputLabelUs" class="text-start text-black text-custom-font-size md:text-sm lg:text-sm" style="visibility: hidden" for="inputFieldUs">Username</label>
