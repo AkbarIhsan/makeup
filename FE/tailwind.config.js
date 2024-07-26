@@ -29,6 +29,7 @@ export default {
         'custom-4': 'rgb(254, 73,42)',
         'custom-5': 'rgb(58,17,10)',
         'custom-6': 'rgb(255,203,203)',
+        'custom-7': 'rgb(217,217,217)',
 
     },
     margin:{

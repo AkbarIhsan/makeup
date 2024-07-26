@@ -24,7 +24,8 @@
                         <a class="grid mt-10 h-12 mx-4 w-48 rounded-md p-2 bg-transparent border text-white hover:scale-95 text-center items-center cursor-pointer"><b>Order Now</b></a>
                         
                 </div>
-            </div>
+        </div>
+            
             <div class="relative flex flex-col h-screen w-full">
                 <div class="m-32">
                     <h1>
@@ -42,8 +43,11 @@
                     <a class="text-pink-600" href="">view more..</a>
                 </div>
             </div>
-            <div class="flex mt-24 w-full h-screen">
+            
+            <div id="abs" class="relative flex mt-24 w-full h-screen">
+                <div class="flex flex-row gap-x-8">
                     <LayoutAboutUs/>
+                </div>    
             </div>
     </div>
 </template>

@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import { LayoutRegisterLayRegister } from '#components';
+import { LayoutLayRegister } from '#components';
 </script>
 
 <template>
     <div>
-        <LayoutRegisterLayRegister/>
+        <LayoutLayRegister/>
     </div>
 </template>
