@@ -2,6 +2,7 @@
     import { LayoutNavbar } from '#components';
     import { LayoutCard } from '#components';
     import { LayoutAboutUs } from '#components';
+    import { LayoutContactUs } from '#components';
 </script>
 
 <template>
@@ -38,15 +39,25 @@
                     <LayoutCard/>
                     <LayoutCard/>
                 </div>
-                <div class="flex justify-center mt-10 pb-8
+                <div id="abs" class="flex justify-center mt-10 pb-8
                             border-b-2 border-pink-500">
                     <a class="text-pink-600" href="">view more..</a>
                 </div>
             </div>
             
-            <div id="abs" class="relative flex mt-24 w-full h-screen">
+            <div class="relative flex mt-24 w-full h-screen">
                 <div class="flex flex-row gap-x-8">
                     <LayoutAboutUs/>
+                </div>    
+            </div>
+
+            <div id="cont" class="w-full h-16">
+
+            </div>
+
+            <div class="relative flex mt-10 w-full h-screen">
+                <div class="flex flex-row gap-x-8">
+                    <LayoutContactUs/>
                 </div>    
             </div>
     </div>

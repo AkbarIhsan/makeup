@@ -19,7 +19,7 @@
                     
                     <li class="mx-3 text-sm hidden w-auto h-full items-center md:text-md lg:text-lg text-white sm:hidden md:flex lg:flex"><a :class="['hover:mb-2',{'text-black': isScrolled}]" href="">MUA</a></li>
                     
-                    <li class="mx-3 text-sm hidden w-auto h-full items-center md:text-md lg:text-lg text-white sm:hidden md:flex lg:flex"><a :class="['hover:mb-2',{'text-black': isScrolled}]" href="">Contact</a></li>
+                    <li class="mx-3 text-sm hidden w-auto h-full items-center md:text-md lg:text-lg text-white sm:hidden md:flex lg:flex"><a :class="['hover:mb-2',{'text-black': isScrolled}]" href="#cont">Contact</a></li>
                     
                     <li class="mx-3 sm:mr-3 md:mr-4 lg:mr-12 text-sm flex h-full w-auto items-center justify-end">
                         <!-- <template v-if="$auth.loggedIn">
